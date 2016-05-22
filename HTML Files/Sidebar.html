@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Sidebar</title>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <link rel="stylesheet"  href="sidebar.css">
+</head>
+<body>
+	
+	<div id="wrapper">
+
+		<!--sidebar-->
+		<div id="sidebar-wrapper">
+			<ul class="sidebar-nav">
+				<li><a href="#">Accounts</a></li>
+				<li><a href="#">Settings</a></li>
+				<li><a href="#">Logout</a></li>
+			</ul>
+		</div>
+
+		<!--Page content-->
+		<div id="page-content-wrapper">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-lg-12">
+						<a href="#" class="btn btn-success" id="menu-toggle">Toggle Menu</a>
+						<h1>Sidebar Layouts are cool</h1>
+						<p>Isabella Beeton (1836–1865) was an English journalist and editor, and the author of Mrs Beeton's Book of Household Management. She married Samuel Orchart Beeton, an ambitious publisher and magazine editor, in 1856. Less than a year later, she began writing for one of his publications, The Englishwoman's Domestic Magazine. She translated French fiction and wrote the cookery column, though all the recipes were plagiarised from other works, or sent in by the magazine's readers. In 1859 the Beetons launched a series of 48-page monthly supplements to the magazine; the 24 instalments were published in one volume as the Book of Household Management in October 1861, which sold 60,000 copies in the first year. Isabella was working on an abridged version of her book when she died of puerperal fever at the age of 28. She had given birth to four children, two of whom died in infancy, and had had several miscarriages. Two of her biographers posit the theory that Samuel had unknowingly contracted syphilis in a premarital liaison with a prostitute, and had passed the condition on to his wife</p>
+					</div>
+				</div>
+			</div>
+				
+		</div>
+			
+	</div>
+
+	<!--Menu toggle script-->
+	<script>
+		$("#menu-toggle").click( function (e){
+			e.preventDefault();
+			$("#wrapper").toggleClass("menuDisplayed");
+		});
+	</script>
+	
+</body>
+</html>
+														

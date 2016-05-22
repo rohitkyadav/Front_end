@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+</head>
+<body>
+	
+	<nav class="navbar navbar-inverse">
+		<div class="container-fluid">
+
+			<!-- Logo -->
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mainNavBar">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a href="#" class="navbar-brand">ROHIT YADAV</a>
+			</div>
+
+			<!-- Menu items -->
+			<div class="collapse navbar-collapse" id="mainNavBar">
+				<ul class="nav navbar-nav">
+					<li class="active"><a href="#">HOME</a></li>
+					<li><a href="https://www.youtube.com/watch?v=JNAqaNQc2qk&list=PL6gx4Cwl9DGBPw1sFodruZUPheWVKchlM&index=6">ABOUT</a></li>
+					<li><a href="#">CONTACTS</a></li>
+			
+					<!--Drop down -->
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">My Profile <span class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li><a href="#">Friends</a></li>
+							<li><a href="#">Photos</a></li>
+							<li><a href="#">Settings</a></li>
+						</ul>
+					</li>
+				</ul>
+				<!--Right Align-->
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="#">Logout</a></li>	
+				</ul>
+			</div>
+
+		</div>
+	</nav>
+
+</body>
+</html>
