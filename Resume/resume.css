@@ -15,6 +15,11 @@ body {
     text-align: right;
 }
 
+#about{
+    line-height:5px;
+    margin-top: 0px;
+}
+
 #contact p {
     margin: .5em;
 }
